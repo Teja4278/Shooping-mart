@@ -10,10 +10,10 @@ const Home = ( {addToCart}) => {
     <div>
     <Carousel />
      <Dummysecetion /> 
-    {/* <DiscountProduct addToCart={addToCart} />
-    <Newarrivals addToCart={addToCart} />
+     <DiscountProduct addToCart={addToCart} />
+    {/* <Newarrivals addToCart={addToCart} />
     <Bestsales addToCart={addToCart}/>
-    <Footer />  */}
+    <Footer />   */}
     </div>
   )
 }
