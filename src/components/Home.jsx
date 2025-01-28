@@ -9,11 +9,11 @@ const Home = ( {addToCart}) => {
   return (
     <div>
     <Carousel />
-    {/* <Dummysecetion />
-    <DiscountProduct addToCart={addToCart} />
+     <Dummysecetion /> 
+    {/* <DiscountProduct addToCart={addToCart} />
     <Newarrivals addToCart={addToCart} />
     <Bestsales addToCart={addToCart}/>
-    <Footer /> */}
+    <Footer />  */}
     </div>
   )
 }
