@@ -11,8 +11,8 @@ const Home = ( {addToCart}) => {
     <Carousel />
      <Dummysecetion /> 
      <DiscountProduct addToCart={addToCart} />
-    {/* <Newarrivals addToCart={addToCart} />
-    <Bestsales addToCart={addToCart}/>
+     <Newarrivals addToCart={addToCart} />
+    {/* <Bestsales addToCart={addToCart}/>
     <Footer />   */}
     </div>
   )
