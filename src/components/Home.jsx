@@ -12,8 +12,8 @@ const Home = ( {addToCart}) => {
      <Dummysecetion /> 
      <DiscountProduct addToCart={addToCart} />
      <Newarrivals addToCart={addToCart} />
-    {/* <Bestsales addToCart={addToCart}/>
-    <Footer />   */}
+     <Bestsales addToCart={addToCart}/>
+    {/* <Footer />   */}
     </div>
   )
 }
