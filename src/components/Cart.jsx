@@ -1,18 +1,18 @@
 import React from "react";
 
 const CartPage = ({ cart, setCart }) => {
-  // Function to remove an item from the cart
-  // const removeFromCart = (index) => {
-  //   const updatedCart = cart.filter((_, idx) => idx !== index);
-  //   setCart(updatedCart);
-  // };
+  Function to remove an item from the cart
+  const removeFromCart = (index) => {
+    const updatedCart = cart.filter((_, idx) => idx !== index);
+    setCart(updatedCart);
+  };
 
-  // // Function to increase the quantity of an item
-  // const increaseQuantity = (index) => {
-  //   const updatedCart = [...cart];
-  //   updatedCart[index].quantity = (updatedCart[index].quantity || 0) + 1; // Ensure quantity is always a number
-  //   setCart(updatedCart);
-  // };
+  // Function to increase the quantity of an item
+  const increaseQuantity = (index) => {
+    const updatedCart = [...cart];
+    updatedCart[index].quantity = (updatedCart[index].quantity || 0) + 1; // Ensure quantity is always a number
+    setCart(updatedCart);
+  };
 
   // Function to decrease the quantity of an item
   const decreaseQuantity = (index) => {
