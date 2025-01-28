@@ -45,7 +45,7 @@ const ShopPage = () => {
       </div>
 
       <div className="row mb-4">
-        {/* <div className="col-md-4">
+        <div className="col-md-4">
           <select
             className="form-select"
             onChange={(e) => setCategory(e.target.value)}
@@ -57,7 +57,7 @@ const ShopPage = () => {
             <option value="chairs">Chairs</option>
             <option value="sofas">Sofas</option>
           </select>
-        </div> */}
+        </div>
         <div className="col-md-8">
           <input
             type="text"
