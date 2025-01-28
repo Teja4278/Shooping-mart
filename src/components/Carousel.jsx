@@ -63,13 +63,13 @@ const Carousel = () => {
         </div>
       </div>
 
-      {/* Navigation Buttons */}
-      {/* <button className="carousel-button prev" onClick={prevSlide}>
+    {/* Navigation Buttons  */}
+       <button className="carousel-button prev" onClick={prevSlide}>
         &#10094;
       </button>
       <button className="carousel-button next" onClick={nextSlide}>
         &#10095;
-      </button> */}
+      </button>
     </div>
   );
 };
