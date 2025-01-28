@@ -58,7 +58,7 @@ const ShopPage = () => {
             <option value="sofas">Sofas</option>
           </select>
         </div>
-        <div className="col-md-8">
+        {/* <div className="col-md-8">
           <input
             type="text"
             className="form-control"
@@ -66,7 +66,7 @@ const ShopPage = () => {
             value={search}
             onChange={(e) => setSearch(e.target.value)}
           />
-        </div>
+        </div> */}
       </div>
 
       {notification && (
